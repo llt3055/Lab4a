@@ -45,12 +45,12 @@ int main(){
     }
     //verify the size of vector
     //cout << colors.size() << endl;
-
-     for (int i = 0; i < n; i++) {
-        Color temp;
-        cout << temp.red<<" ";   
-        cout << temp.green<<" "; 
-        cout << temp.blue<<endl;  
-        
-    }
+    cout << "Color#\t" << "R value\t" << "G value\t" << "B value" << endl;
+    cout << "------------------------------------------" << endl;
+    for (int i = 0; i < colors.size(); i++) {
+        cout << colors[i].red << "\t" 
+         << colors[i].green << "\t" 
+         << colors[i].blue << endl;
+}
+    
 }
