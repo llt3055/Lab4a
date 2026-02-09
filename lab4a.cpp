@@ -26,12 +26,14 @@ int main(){
     << ", B: " << color.blue << endl;
 
     vector<Color> colors;
+    colors.push_back(color);
     cout << colors.size() << endl;
     cout << "Stored color: "<<
     "R=" << colors[0].red 
     << " G=" << colors[0].green 
     << " B=" << colors[0].blue << endl;
     
+    colors.clear();
     //loop n times populate random number into vector
     for (int i = 0; i < n; i++) {
         Color temp;
