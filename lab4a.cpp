@@ -44,5 +44,13 @@ int main(){
         colors.push_back(temp);
     }
     //verify the size of vector
-    cout << colors.size() << endl;
+    //cout << colors.size() << endl;
+
+     for (int i = 0; i < n; i++) {
+        Color temp;
+        cout << temp.red<<" ";   
+        cout << temp.green<<" "; 
+        cout << temp.blue<<endl;  
+        
+    }
 }
