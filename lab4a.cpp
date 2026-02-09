@@ -15,5 +15,10 @@ struct Color{
 };
 
 int main(){
-    
+    srand(time(0));
+    Color color = {255, 0, 0};
+    cout << "Milestone 1 - Initialized Color: "
+    << "R: " << color.red
+    << ", G: " << color.green 
+    << ", B: " << color.blue << endl;
 }
