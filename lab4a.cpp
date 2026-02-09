@@ -48,6 +48,7 @@ int main(){
     cout << "Color#\t" << "R value\t" << "G value\t" << "B value" << endl;
     cout << "------------------------------------------" << endl;
     for (int i = 0; i < colors.size(); i++) {
+        cout << (i + 1) << "\t";
         cout << colors[i].red << "\t" 
          << colors[i].green << "\t" 
          << colors[i].blue << endl;
